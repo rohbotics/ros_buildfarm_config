@@ -8,8 +8,7 @@ jenkins_source_job_priority: 80
 jenkins_source_job_timeout: 30
 notifications:
   emails:
-  - ros-buildfarm-jade@googlegroups.com
-  - william+buildfarm@osrfoundation.org
+  - rohan@aleopile.com
   maintainers: false
 package_blacklist:
   - ueye_cam

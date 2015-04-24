@@ -8,11 +8,10 @@ jenkins_source_job_priority: 81
 jenkins_source_job_timeout: 30
 notifications:
   emails:
-  - ros-buildfarm-indigo@googlegroups.com
-  - tfoote+buildfarm@osrfoundation.org
+  - rohan@aleopile.com
   maintainers: false
 sync:
-  package_count: 700
+  package_count: 1
 repositories:
   keys:
   - |
@@ -47,8 +46,8 @@ repositories:
     =E8ot
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://54.183.65.232/ubuntu/building
-target_repository: http://54.183.65.232/ubuntu/building
+  - http://boltzmann.local/ubuntu/building
+target_repository: http://boltzmann.local/ubuntu/building
 targets:
   ubuntu:
     trusty:

@@ -8,8 +8,7 @@ jenkins_job_timeout: 60
 notifications:
   committers: false
   emails:
-  - ros-buildfarm-jade@googlegroups.com
-  - william+buildfarm@osrfoundation.org
+  - rohan@aleopile.com
   maintainers: false
 repositories:
   keys:
